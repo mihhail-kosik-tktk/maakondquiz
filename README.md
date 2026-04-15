@@ -16,7 +16,7 @@ Mängu jooksmiseks on sul vaja Pythonit ja `pandas` raamatukogu.
 
 
 
-##📂 Failide struktuur
+## 📂 Failide struktuur
 Selleks, et kood töötaks, peavad järgmised failid olema samas kaustas:
 
 quiz.py – Põhikood.
@@ -25,7 +25,7 @@ maakond.csv – Andmefail maakondade nimede ja (x, y) koordinaatidega.
 
 kaart.gif – Eesti kaardi pildifail, mida kasutatakse taustana.
 
-##🚀 Kuidas mängida?
+## 🚀 Kuidas mängida?
 Klooni või laadi alla see repositoorium.
 
 Ava terminal või käsurida failide asukohas.
@@ -35,8 +35,9 @@ Käivita programm:
 Bash
 python quiz.py
 Vaata kaardile tekkivat täppi ja sisesta maakonna nimi konsooli.
+Märkus: Veendu, et sisestad nimed õigesti koos täpitähtedega (nt "Järvamaa", mitte "Jarvamaa").
 
-👤 Autor
+## 👤 Autor
 mkosh (Loodud: 1. aprill 2026)
 
-Märkus: Veendu, et sisestad nimed õigesti koos täpitähtedega (nt "Järvamaa", mitte "Jarvamaa").
+
