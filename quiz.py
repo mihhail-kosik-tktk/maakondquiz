@@ -8,6 +8,7 @@ Created on Wed Apr  1 12:26:27 2026
 import turtle
 import pandas
 import random
+import tkinter as tk
 
 data=pandas.read_csv("maakond.csv")
 d= data.to_dict()
@@ -34,6 +35,12 @@ for i in rng:
         score+=1
         print("Correct!")
         turtle.write(d['maakond'][i], move=True, align="left", font=("Arial", 10, "normal"))
+        turtle.penup()
+        turtle.goto(-150, -200)  
+        turtle.pendown()
+        turtle.dot(60, "white")
+        turtle.pencolor("black")
+        turtle.write(str(score), move=True, align="left", font=("Arial", 20, "normal"))
     else:
         print("Wrong!")
         turtle.pencolor("red")
